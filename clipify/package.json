@@ -1,5 +1,6 @@
 {
   "name": "clipify",
+  "description": "AI-powered video clip generator",
   "private": true,
   "version": "0.0.0",
   "type": "module",

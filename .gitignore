@@ -25,7 +25,10 @@ yarn-error.log*
 .env.local
 .env.*.local
 
-# Build outputs (if you add build tools later)
+# Dependencies
+node_modules/
+
+# Build outputs
 dist/
 build/
 *.min.js
