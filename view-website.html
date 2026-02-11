@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Open Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 50px;
+            text-align: center;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        h1 { margin-bottom: 30px; }
+        .button {
+            background: white;
+            color: #667eea;
+            padding: 15px 30px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 10px;
+            display: inline-block;
+            transition: transform 0.2s;
+        }
+        .button:hover {
+            transform: scale(1.05);
+        }
+        .instructions {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 30px;
+            max-width: 600px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🚀 Backend Team Website</h1>
+    <p style="font-size: 1.2em; margin-bottom: 30px;">Click the button below to view your website</p>
+    
+    <a href="index.html" class="button">Open Main Website</a>
+    
+    <div class="instructions">
+        <h3>📖 How to View:</h3>
+        <p><strong>Method 1:</strong> Click the button above</p>
+        <p><strong>Method 2:</strong> Double-click <code>index.html</code> in Finder</p>
+        <p><strong>Method 3:</strong> Run a local server:</p>
+        <code style="background: rgba(0,0,0,0.2); padding: 10px; display: block; margin: 10px 0; border-radius: 5px;">
+            cd ~/Desktop/backend-team-website<br>
+            python3 -m http.server 8000<br>
+            Then open: http://localhost:8000
+        </code>
+        <p style="color: #ffd700; margin-top: 20px;">
+            ⚠️ <strong>Note:</strong> Don't click "Run" in your IDE - HTML files open in browsers!
+        </p>
+    </div>
+    
+    <script>
+        // Auto-redirect after 3 seconds
+        setTimeout(() => {
+            window.location.href = 'index.html';
+        }, 3000);
+    </script>
+</body>
+</html>
