@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Backend Team Website
 
 A modern, responsive website for showcasing your backend team's services, technologies, and expertise.
@@ -158,3 +159,7 @@ Feel free to use this template for your team's website!
 ---
 
 Built with ❤️ for backend teams everywhere.
+=======
+# frontend
+testing
+>>>>>>> 39fb60f43b586ec75631ee838624b84f5620912f
